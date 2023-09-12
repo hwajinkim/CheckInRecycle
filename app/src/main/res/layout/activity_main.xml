@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.smart.checkinrecycle.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/recycle"
+            android:layout_marginBottom="80dp"/>
+
+        <EditText
+            android:layout_margin="2dp"
+            android:hint = "아이디"
+            android:textColorHint="#A9A9A9"
+            android:textColor="#000000"
+            android:textSize="20dp"
+           android:inputType="text"
+            android:backgroundTint="#81C147"
+            android:id="@+id/et_Id"
+            android:textCursorDrawable="@null"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:theme="@style/EditTheme"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            app:passwordToggleEnabled="true">
+
+        <EditText
+            android:layout_margin="2dp"
+            android:hint = "비밀번호"
+            android:textColorHint="#A9A9A9"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:inputType="textPassword"
+            android:backgroundTint="#81C147"
+            android:id="@+id/et_Password"
+            android:textCursorDrawable="@null"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:theme="@style/EditTheme"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:text="로그인"
+            android:id="@+id/btn_Login"
+            android:textSize="17dp"
+            android:backgroundTint="#29C385"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/signup_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="회원가입"
+                android:textSize="20dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
