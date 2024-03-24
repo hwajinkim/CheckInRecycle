@@ -1,5 +1,18 @@
+# K-HACKATHON8
+소프트웨어교육혁신센터에서 주관하는 K-HACKATHON 앱 개발 챌린지에서 소개한 애플리케이션 소스입니다. 
+체크인 분리수거장이라는 주제로 모바일 애플리케이션을 구현하였습니다.
 
+## 프로젝트 소개
+체크인 분리수거장은 모바일 앱을 통해서 실시간 분리수거량 잔량 현황을 체크하고 qr코드 인증을 통해 제한된 이용자만 방문 가능하도록 만든 어플리케이션 입니다.
 
+## 기간 
+2020년 6월 ~ 2020년 11월
+
+## 개발환경
+tool : android studio
+language : java
+middleware : php
+dbms : mysql 
 
 ![슬라이드1](https://github.com/hwajinkim/CheckInRecycle/assets/68608437/b20f68d4-78c3-42a3-8383-d7c26837db11)
 ![슬라이드2](https://github.com/hwajinkim/CheckInRecycle/assets/68608437/84a3a1e2-5483-47d3-a348-ec8fe890f481)
