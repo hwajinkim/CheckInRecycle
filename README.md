@@ -9,10 +9,10 @@
 2020년 6월 ~ 2020년 11월
 
 ## 개발환경
-tool : android studio
-language : java
-middleware : php
-dbms : mysql 
+- tool : android studio
+- language : java
+- middleware : php
+- dbms : mysql 
 
 ![슬라이드1](https://github.com/hwajinkim/CheckInRecycle/assets/68608437/b20f68d4-78c3-42a3-8383-d7c26837db11)
 ![슬라이드2](https://github.com/hwajinkim/CheckInRecycle/assets/68608437/84a3a1e2-5483-47d3-a348-ec8fe890f481)
