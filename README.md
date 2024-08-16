@@ -5,6 +5,7 @@
 ## 프로젝트 소개
 스마트 분리수거장은 모바일 앱을 통해서 실시간 분리수거량 잔량 현황을 체크하고 qr코드 인증을 통해 제한된 이용자만 방문 가능하도록 만든 어플리케이션 입니다.
 
+
 ## 기간 
 2020년 6월 ~ 2020년 11월
 
@@ -15,10 +16,13 @@
 - dbms : mysql
 - api : Gooogle Maps API
 
-## 주요기능
+##주요기능
 - 분리수거장 위치 확인
+    - Google Map Api 사용
 - 실시간 쓰레기 잔량 체크
+    - 아두이노 초음파 센서로 사물과의 거리 측정 
 - QR 체크인을 통한 인증된 사용자만 출입 허용
+    - QR 코드를 스캔하여 앱에 인증이 된 사용자일 경우에만 서보모터 동작
   
 ![슬라이드5](https://github.com/hwajinkim/CheckInRecycle/assets/68608437/ca3bb488-3006-4dc5-a419-f9962273bb11)
 ![슬라이드6](https://github.com/hwajinkim/CheckInRecycle/assets/68608437/c83417da-3369-4d86-9b4c-cfc9d9e1fe80)
