@@ -17,7 +17,7 @@
 - dbms : mysql
 - api : Gooogle Maps API
 
-##주요기능
+## 주요기능
 - 분리수거장 위치 확인
     - Google Map Api 사용
       
